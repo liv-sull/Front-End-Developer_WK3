@@ -104,3 +104,16 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  h1,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: large;
+  }
+  img {
+    display: none;
+  }
+}
